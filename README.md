@@ -1,8 +1,11 @@
 # Spring-Study-1
 강의를 참고한 Spring Study
 
-Spec
+## Spec
 
-Database : h2 Database 1.4.200
-Java : v11
-IDEA : IntelliJ IDEA
+Database : h2 Database 1.4.200 <br>
+Java : v11<br>
+IDEA : IntelliJ IDEA<br>
+SpringBoot Initializer<br>
+- Spring Web
+- Thymeleaf
