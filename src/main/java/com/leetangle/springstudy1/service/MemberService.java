@@ -3,9 +3,11 @@ package com.leetangle.springstudy1.service;
 import com.leetangle.springstudy1.domain.Member;
 import com.leetangle.springstudy1.repository.MemberRepository;
 import com.leetangle.springstudy1.repository.MemoryMemberRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+
 
 public class MemberService {
     

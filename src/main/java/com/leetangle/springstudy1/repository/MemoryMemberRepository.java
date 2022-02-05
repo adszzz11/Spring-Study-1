@@ -1,8 +1,10 @@
 package com.leetangle.springstudy1.repository;
 
 import com.leetangle.springstudy1.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
+
 
 public class MemoryMemberRepository implements MemberRepository {
 
