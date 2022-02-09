@@ -1,5 +1,6 @@
 package com.leetangle.springstudy1;
 
+import com.leetangle.springstudy1.aop.TimeTraceAop;
 import com.leetangle.springstudy1.repository.*;
 import com.leetangle.springstudy1.service.MemberService;
 import org.springframework.context.annotation.Bean;
@@ -23,5 +24,11 @@ public class SpringConfig {
 //    public MemberRepository memberRepository() {
 //        return new JpaMemberRepository(em);
 //    }
+
+
+    @Bean
+    public TimeTraceAop timeTraceAop() {
+        return new TimeTraceAop();
+    }
 
 }
