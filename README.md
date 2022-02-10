@@ -9,3 +9,4 @@ IDEA : IntelliJ IDEA<br>
 SpringBoot Initializer<br>
 - Spring Web
 - Thymeleaf
+- JPA
